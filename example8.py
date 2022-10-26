@@ -6,7 +6,7 @@
 # Zakończ działanie programu, jeśli użytkownik wpisze słowo "koniec".
 
 predkosc = input('Podaj prędkość. Jeśli chcesz zakończyć, wpisz słowo koniec.')
-while predkosc != 'koniec':
+while predkosc.lower() != 'koniec':
     print('Sprawdzanie prędkości...')
     predkosc = int(predkosc)
     if predkosc <= 50:
@@ -17,4 +17,4 @@ while predkosc != 'koniec':
         print('Zdecydowanie za szybko jedziesz! zaraz dostaniesz mandat!')
     else:
         print('Dostajesz mandat!')
-predkosc = input('Podaj prędkość. Jeśli chcesz zakończyć, wpisz słowo koniec.')
+    predkosc = input('Podaj prędkość. Jeśli chcesz zakończyć, wpisz słowo koniec.')
