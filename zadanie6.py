@@ -1,15 +1,6 @@
-# liczba_km = input('Podaj liczbę kilomtrów: ')
-# liczba_km = int(liczba_km)
-# jednostka = input('Podaj jednostkę, na którą mam przeliczyć podane wcześniej kilometry (do wyboru: m, cm lub mm): ')
-#
-# if jednostka == "m":
-#     print(f'{liczba_km} kilometrów to {liczba_km * 1000} metrów.')
-# elif jednostka == "cm":
-#     print(f'{liczba_km} kilometrów to {liczba_km * 10000} centymetrów.')
-# elif jednostka == "mm":
-#     print(f'{liczba_km} kilometrów to {liczba_km * 1000000} milimetrów.')
-# else:
-#     print(f'Nasz program nie obsługuje jednostki: {jednostka}.')
+# Używając instrukcji warunkowej if, elif, else przelicz złotówki na wskazaną przez użytkownika walutę.
+# Użyj dodatkowo funkcji float(), input(), print() i zapisu do zmiennych.
+# Przyjmij, że: 1 euro = 4.77zł, 1 dolar = 4.85zł, 1 forint = 0.011zł.
 
 zloty = input('Podaj liczbę złotówek: ')
 zloty = float(zloty)
