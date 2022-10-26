@@ -1,0 +1,2 @@
+myName = "Basia"
+print(myName)
